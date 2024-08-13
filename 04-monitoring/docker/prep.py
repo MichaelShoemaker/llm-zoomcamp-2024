@@ -13,7 +13,7 @@ load_dotenv()
 ELASTIC_URL = os.getenv("ELASTIC_URL_LOCAL")
 MODEL_NAME = os.getenv("MODEL_NAME")
 INDEX_NAME = os.getenv("INDEX_NAME")
-ELASTIC_URL='http://localhost:9201'
+# ELASTIC_URL='http://elasticsearch:9200'
 BASE_URL = "https://github.com/DataTalksClub/llm-zoomcamp/blob/main"
 
 
